@@ -4,7 +4,9 @@
   "description": "Make requests CORSable!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "deploy": "git push dokku master"
   },
   "keywords": [
     "CORS"
